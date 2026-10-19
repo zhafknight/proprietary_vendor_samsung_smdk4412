@@ -23,5 +23,5 @@ LOCAL_SRC_FILES := lib/libMali.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_ALLOW_UNDEFINED_SYMBOLS := true
-LOCAL_SHARED_LIBRARIES := libC libUMP libbinder libcutils libdl libhardware liblog libm libstdc++ libui libutils
+LOCAL_SHARED_LIBRARIES := libC libUMP libbinder libcutils libdl libhardware liblog libm libstdc++_vendor libui libutils
 include $(BUILD_PREBUILT)
